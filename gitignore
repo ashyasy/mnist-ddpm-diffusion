@@ -1,0 +1,37 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+.venv/
+env/
+conda-env/
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Dataset folders
+data/
+MNIST/
+
+# Model checkpoints / large ML files
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Output folders that can be regenerated
+outputs/
+runs/
+logs/
+
+# IDE files
+.vscode/
+.idea/
